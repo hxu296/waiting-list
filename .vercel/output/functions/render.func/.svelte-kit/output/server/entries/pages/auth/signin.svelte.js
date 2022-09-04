@@ -1,7 +1,7 @@
 import { c as create_ssr_component, a as subscribe, v as validate_component, e as escape, f as add_attribute } from "../../../immutable/chunks/index-0b98f2d1.js";
-import { s as signIn } from "../../../immutable/chunks/auth-381949e4.js";
+import { s as signIn } from "../../../immutable/chunks/auth-84ecef4e.js";
 import { c as createForm, N as Notification, S as SignInSchema } from "../../../immutable/chunks/Notification-2f013966.js";
-import "../../../immutable/chunks/db-23ff7454.js";
+import "../../../immutable/chunks/db-a461fa9d.js";
 import "@supabase/auth-helpers-sveltekit";
 import "../../../immutable/chunks/internal-25ff1fbb.js";
 import "../../../immutable/chunks/index-6a50b39d.js";

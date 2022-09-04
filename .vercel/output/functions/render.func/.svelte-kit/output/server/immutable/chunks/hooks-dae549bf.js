@@ -1,8 +1,8 @@
 import { handleAuth } from "@supabase/auth-helpers-sveltekit";
 import { sequence } from "@sveltejs/kit/hooks";
-import { a as getProfileById, c as combinedUserMapper } from "./getProfile-64b9a909.js";
+import { a as getProfileById, c as combinedUserMapper } from "./getProfile-56ffb7c3.js";
 import "./internal-25ff1fbb.js";
-import "./db-23ff7454.js";
+import "./db-a461fa9d.js";
 async function handleProfile({ event, resolve }) {
   const { user, accessToken } = event.locals;
   const profile = await getProfileById({ accessToken, userId: user == null ? void 0 : user.id });

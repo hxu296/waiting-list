@@ -1,4 +1,4 @@
-import { s as supabase } from "./db-23ff7454.js";
+import { s as supabase } from "./db-a461fa9d.js";
 import { s as successMapper, e as errorMapper } from "./internal-25ff1fbb.js";
 const signIn = async ({ email, password }) => {
   const { error } = await supabase.auth.signIn({ email, password });

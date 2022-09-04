@@ -1,7 +1,7 @@
 import { withApiAuth } from "@supabase/auth-helpers-sveltekit";
-import { g as getProfiles } from "../../../immutable/chunks/getProfile-64b9a909.js";
+import { g as getProfiles } from "../../../immutable/chunks/getProfile-56ffb7c3.js";
 import "../../../immutable/chunks/internal-25ff1fbb.js";
-import "../../../immutable/chunks/db-23ff7454.js";
+import "../../../immutable/chunks/db-a461fa9d.js";
 const GET = async ({ locals }) => withApiAuth({
   redirectTo: "/auth/signin",
   user: locals.user

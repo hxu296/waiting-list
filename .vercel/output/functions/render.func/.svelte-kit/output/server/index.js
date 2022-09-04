@@ -2380,7 +2380,7 @@ class Server {
       throw new Error("The first argument to server.respond must be a Request object. See https://github.com/sveltejs/kit/pull/3384 for details");
     }
     if (!this.options.hooks) {
-      const module = await import("./immutable/chunks/hooks-3d4bf1f8.js");
+      const module = await import("./immutable/chunks/hooks-dae549bf.js");
       this.options.hooks = {
         getSession: module.getSession || (() => ({})),
         handle: module.handle || (({ event, resolve: resolve2 }) => resolve2(event)),

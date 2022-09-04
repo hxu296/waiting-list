@@ -1,6 +1,6 @@
 import { supabaseServerClient } from "@supabase/auth-helpers-sveltekit";
 import { w as withDefault, s as successMapper, e as errorMapper } from "./internal-25ff1fbb.js";
-import "./db-23ff7454.js";
+import "./db-a461fa9d.js";
 const userMapper = (user) => ({
   fullName: withDefault(user.full_name, ""),
   isAdmin: user.is_admin

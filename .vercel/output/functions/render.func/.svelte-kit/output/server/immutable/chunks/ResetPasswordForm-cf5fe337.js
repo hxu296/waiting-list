@@ -1,6 +1,6 @@
 import { c as create_ssr_component, d as createEventDispatcher, a as subscribe, v as validate_component, e as escape, f as add_attribute } from "./index-0b98f2d1.js";
 import { c as createForm, N as Notification, R as ResetPasswordSchema } from "./Notification-2f013966.js";
-import { u as updatePassword } from "./auth-381949e4.js";
+import { u as updatePassword } from "./auth-84ecef4e.js";
 const ResetPasswordForm = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let $form, $$unsubscribe_form;
   let $errors, $$unsubscribe_errors;

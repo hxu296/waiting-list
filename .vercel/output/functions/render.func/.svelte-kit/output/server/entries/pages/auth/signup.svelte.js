@@ -1,7 +1,7 @@
 import { c as create_ssr_component, a as subscribe, v as validate_component, e as escape, f as add_attribute } from "../../../immutable/chunks/index-0b98f2d1.js";
 import { c as createForm, N as Notification, a as SignUpSchema } from "../../../immutable/chunks/Notification-2f013966.js";
-import { a as signUp } from "../../../immutable/chunks/auth-381949e4.js";
-import { V as VITE_APP_URL } from "../../../immutable/chunks/db-23ff7454.js";
+import { a as signUp } from "../../../immutable/chunks/auth-84ecef4e.js";
+import { V as VITE_APP_URL } from "../../../immutable/chunks/db-a461fa9d.js";
 import "../../../immutable/chunks/index-6a50b39d.js";
 import "vest";
 import "pragmatic-email-regex";

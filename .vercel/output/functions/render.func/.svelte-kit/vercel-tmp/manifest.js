@@ -3,7 +3,7 @@ export const manifest = {
 	assets: new Set(["android-chrome-192x192.png","android-chrome-512x512.png","apple-touch-icon.png","css/bulma.min.css","favicon-16x16.png","favicon-32x32.png","favicon.ico","favicon.png","img/1280x960.png","img/WaitingList_Icon.png","img/WaitingList_Logo.svg","img/WaitingList_Placeholder.png","site.webmanifest"]),
 	mimeTypes: {".png":"image/png",".css":"text/css",".ico":"image/vnd.microsoft.icon",".svg":"image/svg+xml",".webmanifest":"application/manifest+json"},
 	_: {
-		entry: {"file":"immutable/start-d5821fc4.js","imports":["immutable/start-d5821fc4.js","immutable/chunks/index-57f72b05.js","immutable/chunks/index-1c949c0b.js","immutable/chunks/preload-helper-4c397a37.js","immutable/chunks/singletons-cdeec3fd.js"],"stylesheets":[]},
+		entry: {"file":"immutable/start-ce61bb9d.js","imports":["immutable/start-ce61bb9d.js","immutable/chunks/index-57f72b05.js","immutable/chunks/index-1c949c0b.js","immutable/chunks/preload-helper-4c397a37.js","immutable/chunks/singletons-cdeec3fd.js"],"stylesheets":[]},
 		nodes: [
 			() => import('../output/server/nodes/0.js'),
 			() => import('../output/server/nodes/1.js'),

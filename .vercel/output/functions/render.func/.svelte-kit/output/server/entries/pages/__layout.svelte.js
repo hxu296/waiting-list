@@ -1,6 +1,6 @@
 import { c as create_ssr_component, a as subscribe, v as validate_component } from "../../immutable/chunks/index-0b98f2d1.js";
 import { s as session } from "../../immutable/chunks/stores-b0ac2b05.js";
-import { s as supabase } from "../../immutable/chunks/db-23ff7454.js";
+import { s as supabase } from "../../immutable/chunks/db-a461fa9d.js";
 import { w as writable } from "../../immutable/chunks/index-6a50b39d.js";
 import "@supabase/auth-helpers-sveltekit";
 var ENDPOINT_PREFIX = "/api/auth";

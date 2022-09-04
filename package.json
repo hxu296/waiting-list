@@ -23,16 +23,16 @@
     "pg-connection-string": "^2.5.0",
     "postgres": "^1.0.2",
     "prettier": "~2.6.2",
-    "prettier-plugin-svelte": "^2.7.0"
+    "prettier-plugin-svelte": "^2.7.0",
+    "svelte": "^3.49.0"
   },
   "type": "module",
   "dependencies": {
-    "@sveltejs/adapter-vercel": "1.0.0-next.64",
+    "@sveltejs/adapter-vercel": "1.0.0-next.65",
+    "@sveltejs/kit": "^1.0.0-next.377",
     "vite": "^3.0.0",
-    "svelte": "^3.49.0",
     "@supabase/auth-helpers-svelte": "^0.4.5",
     "@supabase/auth-helpers-sveltekit": "^0.6.9",
-    "@sveltejs/kit": "^1.0.0-next.377",
     "dotenv": "^10.0.0",
     "pragmatic-email-regex": "^1.0.4",
     "svelte-forms-lib": "^2.0.1",

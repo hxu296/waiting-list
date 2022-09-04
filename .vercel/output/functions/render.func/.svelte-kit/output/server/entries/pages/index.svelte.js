@@ -1,11 +1,11 @@
 import { c as create_ssr_component, a as subscribe, v as validate_component, e as escape, f as add_attribute } from "../../immutable/chunks/index-0b98f2d1.js";
 import { s as session } from "../../immutable/chunks/stores-b0ac2b05.js";
 import { c as createForm, N as Notification, W as WaitingListSchema } from "../../immutable/chunks/Notification-2f013966.js";
-import { a as addToWaitingList } from "../../immutable/chunks/waiting_list-3a89864d.js";
+import { a as addToWaitingList } from "../../immutable/chunks/waiting_list-e351e032.js";
 import "../../immutable/chunks/index-6a50b39d.js";
 import "vest";
 import "pragmatic-email-regex";
-import "../../immutable/chunks/db-23ff7454.js";
+import "../../immutable/chunks/db-a461fa9d.js";
 import "@supabase/auth-helpers-sveltekit";
 import "../../immutable/chunks/internal-25ff1fbb.js";
 const WaitingListForm = create_ssr_component(($$result, $$props, $$bindings, slots) => {

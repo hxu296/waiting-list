@@ -1,4 +1,4 @@
-import { s as supabase } from "./db-23ff7454.js";
+import { s as supabase } from "./db-a461fa9d.js";
 import { supabaseServerClient } from "@supabase/auth-helpers-sveltekit";
 import { w as withDefault, s as successMapper, e as errorMapper } from "./internal-25ff1fbb.js";
 const waitingListMapper = (user) => ({

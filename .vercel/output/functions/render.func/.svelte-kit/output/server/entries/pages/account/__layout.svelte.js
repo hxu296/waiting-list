@@ -1,7 +1,7 @@
 import { c as create_ssr_component, a as subscribe, v as validate_component } from "../../../immutable/chunks/index-0b98f2d1.js";
 import { withPageAuth } from "@supabase/auth-helpers-sveltekit";
 import { p as page } from "../../../immutable/chunks/stores-b0ac2b05.js";
-import "../../../immutable/chunks/db-23ff7454.js";
+import "../../../immutable/chunks/db-a461fa9d.js";
 const Header_svelte_svelte_type_style_lang = "";
 const css$1 = {
   code: "nav.svelte-9nhdoj{position:fixed;left:0;right:0;top:0;padding:10px 0;border-bottom:1px solid rgba(219, 219, 219, 1)}",
