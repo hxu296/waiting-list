@@ -1,0 +1,1 @@
+const a=(s,o=null)=>s||o,e=s=>({status:s.status,message:s.message,statusCode:s.code}),c=s=>({...e({status:"success",message:s.message,code:a(s.code,200)}),data:a(s.data,[])}),r=s=>({error:a(s.error,{}),...e({status:"failed",message:s.message,code:a(s.code,400)})});export{r as e,c as s};
