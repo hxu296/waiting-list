@@ -12,4 +12,4 @@ try {
  */
 export const { VITE_SUPABASE_URL, VITE_SUPABASE_ANON_KEY, VITE_APP_URL } = !importEnv
 	? process.env
-	: {VITE_APP_URL: process.env.VITE_VERCEL_URL || process.env.VITE_APP_URL, ...import.meta.env}
+	: import.meta.env
