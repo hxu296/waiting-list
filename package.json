@@ -28,7 +28,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@sveltejs/adapter-vercel": "1.0.0-next.65",
+    "@sveltejs/adapter-netlify": "1.0.0-next.70",
     "@sveltejs/kit": "^1.0.0-next.377",
     "vite": "^3.0.0",
     "@supabase/auth-helpers-svelte": "^0.4.5",
