@@ -31,7 +31,7 @@
   "dependencies": {
     "@supabase/auth-helpers-svelte": "^0.4.5",
     "@supabase/auth-helpers-sveltekit": "^0.6.9",
-    "@sveltejs/adapter-auto": "1.0.0-next.71",
+    "@sveltejs/adapter-vercel": "1.0.0-next.72",
     "@sveltejs/kit": "^1.0.0-next.377",
     "dotenv": "^10.0.0",
     "pragmatic-email-regex": "^1.0.4",
